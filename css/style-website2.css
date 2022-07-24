@@ -152,7 +152,7 @@
 /*Section3 Style*/
 .section3{
     background-color: rgb(22, 22, 22);
-    height: 300px;
+    height: 350px;
     margin-top: 30px;
 }
 
@@ -175,6 +175,48 @@
 
 .section3-part1-link1{
     margin: 20px;
+    margin-bottom: 10px;
     color: white;
     cursor: pointer;
 }
+
+.section3-part2-link2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section3-part2-link2-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.section3-part2-link2-box a img{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.section3-part2-link2-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.section3-part2-link2-box:hover a{
+    transform: scale(1.5);
+}
+
+.section3-part2-link2-box:hover{
+    background-color: white;
+    transform: scale(1.3);
+}
+
+
+

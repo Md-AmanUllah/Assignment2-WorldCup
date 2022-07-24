@@ -4,10 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    /* background-color: red; */
-}
-
 .wrapper{
     width: 85vw;
     margin: 10px auto;
@@ -40,9 +36,6 @@ body{
     align-items: center;
     justify-content: center;
     padding: 0 50px;
-}
-
-.section1-container-right{
 }
 
 .section1-container-right img{
@@ -245,6 +238,12 @@ body{
     color: white;
 }
 
+.section3-part2-link2-box a img{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
 .section3-part2-link2-box{
     display: flex;
     align-items: center;
@@ -258,13 +257,12 @@ body{
 }
 
 .section3-part2-link2-box:hover a{
-    color: red;
     transform: scale(1.5);
 }
 
 .section3-part2-link2-box:hover{
     background-color: white;
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 
