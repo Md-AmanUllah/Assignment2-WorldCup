@@ -206,7 +206,7 @@ body{
 /*Section3 Style*/
 .section3{
     background-color: rgb(22, 22, 22);
-    height: 300px;
+    height: 350px;
     margin-top: 30px;
 }
 
@@ -229,8 +229,42 @@ body{
 
 .section3-part1-link1{
     margin: 20px;
+    margin-bottom: 10px;
     color: white;
     cursor: pointer;
+}
+
+.section3-part2-link2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section3-part2-link2-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.section3-part2-link2-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.section3-part2-link2-box:hover a{
+    color: red;
+    transform: scale(1.5);
+}
+
+.section3-part2-link2-box:hover{
+    background-color: white;
+    transform: scale(1.2);
 }
 
 
@@ -349,7 +383,6 @@ body{
     }
 
     .section1-container-left{
-        
         height: 320px;
         display: flex;
         flex-direction: column;
@@ -383,8 +416,8 @@ body{
     .section1-container-right img{
         margin-top: 10px;
         display: block;
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
         margin: 0 auto;
         padding-top: 0px;
         
@@ -418,6 +451,11 @@ body{
         border: 1px solid gray;
         border-radius: 10px;
         margin: 20px;
+    }
+
+    .section2-container-right .card .card-img1 img{
+        width: 100%;
+        height: 200px;
     }
 
     .card-hide{
